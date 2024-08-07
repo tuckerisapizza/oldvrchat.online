@@ -140,7 +140,7 @@ def all_routes(text):
             "hasBirthday": "true",
             "acceptedTOSVersion": 999,
             "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-            "currentAvatarAssetUrl": "http://"+ request.headers.get("Host") + "/cdn/" + "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11.vrca",
+            "currentAvatarAssetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11.vrca",
             "developerType": "trusted",
             }
         filewrite = open("apis/players/" + str(request.headers.get("X-Macaddress")), "w")
@@ -180,7 +180,7 @@ def all_routes(text):
                             "imageUrl": "http://"+ request.headers.get("Host") + "/Images/" + filename + ".png",
                             "authorName": "vrchat",
                             "authorId": "vrchat",
-                            "assetUrl": "http://"+ "localhost:2200/cdn/" + filename + ".vrca",
+                            "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/" + filename + ".vrca",
                             "tags": [
                                 "avatar"
                             ],
@@ -209,7 +209,7 @@ def all_routes(text):
                 "imageUrl": "http://"+ request.headers.get("Host") + "/Images/" + avatar + ".png",
                 "authorName": "vrchat",
                 "authorId": "vrchat",
-                "assetUrl": "http://"+ "localhost:2200/cdn/" + avatar + ".vrca",
+                "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/" + avatar + ".vrca",
                 "tags": [
                     "avatar"
                 ],
@@ -272,7 +272,7 @@ def all_routes(text):
                                 "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png",
                                 "authorName": "vrchat",
                                 "authorId": "vrchat",
-                                "assetUrl": "http://"+ "localhost:2200/cdn/" + filename + ".vrcw",
+                                "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrcw/" + filename + ".vrcw",
                                 "tags": [
                                     "world"
                                 ],
@@ -282,7 +282,7 @@ def all_routes(text):
                                 "platform": "standalonewindows",
                                 "releaseStatus": "public",
                                 "capacity": 8,
-                                "pluginUrl": "http://"+ "localhost:2200/cdn/" + filename + ".dll",
+                                "pluginUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/dll/" + filename + ".dll",
                                 "occupants": 0,
                                 "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png"
                                 
@@ -311,7 +311,7 @@ def all_routes(text):
                         "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png",
                         "authorName": "vrchat",
                         "authorId": "vrchat",
-                        "assetUrl": "http://"+ "localhost:2200/cdn/" + world + ".vrcw",
+                        "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrcw/" + filename + ".vrcw",
                         "tags": [
                             "world"
                         ],
@@ -321,7 +321,7 @@ def all_routes(text):
                         "platform": "standalonewindows",
                         "releaseStatus": "public",
                         "capacity": 8,
-                        "pluginUrl": "http://"+ "localhost:2200/cdn/" + world + ".dll",
+                        "pluginUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/dll/" + filename + ".dll",
                         "occupants": 0,
                         "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png"
                         }
