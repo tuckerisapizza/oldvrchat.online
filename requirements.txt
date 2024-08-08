@@ -1,4 +1,4 @@
 typing
 dataclasses
 flask
-gunicorn
+requests

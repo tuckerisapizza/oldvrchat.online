@@ -4,9 +4,28 @@ from typing import Any
 from dataclasses import dataclass
 import json
 from flask import Flask,redirect,send_file,request,json
+import requests
 
 app = Flask(__name__)
 
+def get_vrchat_world_info(world_id):
+    url = f"https://vrchat.com/api/1/worlds/{world_id}"
+    headers = {
+        'User-Agent': 'OldVRChatImporter/1.0 (tuckwhitbeck@gmail.com)'
+    }
+    
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        data = response.json()
+        image_url = data.get('imageUrl')
+        name = data.get('name')
+        thumbnailImageUrl = data.get('thumbnailImageUrl')
+        return image_url, name, thumbnailImageUrl
+    else:
+        print(f"Failed to get data. HTTP Status code: {response.status_code}")
+        return None, None, None
+    
 @app.route('/')
 def main():
     return "VRChat Custom Server, by @tuckerisapizza. Supports version 0.12.0." # 
@@ -54,7 +73,8 @@ def all_routes(text):
                 "https://github.com/",
                 "https://github.com/tuckerisapizza/oldvrchat.online/raw/main/",
                 "https://raw.githubusercontent.com",
-                "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/"
+                "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/",
+                "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/"
             ],
             "clientApiKey": "oldvrchat",
             "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
@@ -62,9 +82,9 @@ def all_routes(text):
             "hubWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7",
             "homeWorldId": "wrld_a0ad5ad3-2b2c-4a77-8220-d372d299b412",
             "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
-            "disableEventStream": False,
-            "disableAvatarGating": False,
-            "disableFeedbackGating": False,
+            "disableEventStream": True,
+            "disableAvatarGating": True,
+            "disableFeedbackGating": True,
             "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
             "sdkDeveloperFaqUrl": "https://www.vrchat.com/developerfaq",
             "sdkDiscordUrl": "https://discord.gg/vrchat",
@@ -265,11 +285,21 @@ def all_routes(text):
                             worldjson = open("apis/worlds/" + filename + ".json", "r", encoding="utf8")
                             jsondata = worldjson.read()
                         except:
+                            world_id = filename
+                            image_url, name, thumbnailImageUrl = get_vrchat_world_info(world_id)
+                            if image_url and name and thumbnailImageUrl:
+                                print(f"World Name: {name}")
+                                print(f"Image URL: {image_url}")
+                                print(thumbnailImageUrl)
+                            else:
+                                image_url = "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png"
+                                name = filename
+                                thumbnailImageUrl = "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png"
                             worldjson = {
                                 "id": filename,
-                                "name": filename,
+                                "name": name,
                                 "description": "World description. World is available to use, however has been created automatically by the server. Please fix.",
-                                "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png",
+                                "imageUrl": image_url,
                                 "authorName": "vrchat",
                                 "authorId": "vrchat",
                                 "assetUrl": "http://localhost:5000/cdn/" + filename + ".vrcw",
@@ -284,7 +314,7 @@ def all_routes(text):
                                 "capacity": 8,
                                 "pluginUrl": "http://localhost:5000/cdn/" + filename + ".dll",
                                 "occupants": 0,
-                                "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png"
+                                "thumbnailImageUrl": thumbnailImageUrl
                                 
                                 }
                             print("not found, creating")
@@ -304,14 +334,24 @@ def all_routes(text):
                     worldjson = open("apis/worlds/" + world + ".json", "r")
                     send = worldjson.read()
                 else:
+                    world_id = world
+                    image_url, name, thumbnailImageUrl = get_vrchat_world_info(world_id)
+                    if image_url and name and thumbnailImageUrl:
+                        print(f"World Name: {name}")
+                        print(f"Image URL: {image_url}")
+                        print(thumbnailImageUrl)
+                    else:
+                        image_url = "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png"
+                        name = world
+                        thumbnailImageUrl = "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png"
                     worldjson = {
                         "id": world,
-                        "name": world,
+                        "name": name,
                         "description": "World description. World is available to use, however has been created automatically by the server. Please fix.",
-                        "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png",
+                        "imageUrl": image_url,
                         "authorName": "vrchat",
                         "authorId": "vrchat",
-                        "assetUrl": "http://localhost:5000/cdn/" + filename + ".vrcw",
+                        "assetUrl": "http://localhost:5000/cdn/" + world + ".vrcw",
                         "tags": [
                             "world"
                         ],
@@ -321,9 +361,9 @@ def all_routes(text):
                         "platform": "standalonewindows",
                         "releaseStatus": "public",
                         "capacity": 8,
-                        "pluginUrl": "http://localhost:5000/cdn/" + filename + ".dll",
+                        "pluginUrl": "http://localhost:5000/cdn/" + world + ".dll",
                         "occupants": 0,
-                        "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png"
+                        "thumbnailImageUrl": thumbnailImageUrl
                         }
                     filewrite = open("apis/worlds/" + world + ".json", "w")
                     filewrite.write(json.dumps(worldjson))
