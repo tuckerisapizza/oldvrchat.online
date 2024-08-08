@@ -1,2 +1,1 @@
-web: gunicorn app:app
-web: gunicorn run:customserver
+web: python app.py
