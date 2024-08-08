@@ -5,13 +5,13 @@ from dataclasses import dataclass
 import json
 from flask import Flask,redirect,send_file,request,json
 
-customserver = Flask(__name__)
+app = Flask(__name__)
 
-@customserver.route('/')
+@app.route('/')
 def main():
     return "VRChat Custom Server, by @tuckerisapizza. Supports version 0.12.0." # 
 
-@customserver.route('/<path:text>', methods=['GET', 'POST', 'PUT'])
+@app.route('/<path:text>', methods=['GET', 'POST', 'PUT'])
 def all_routes(text):
     #for header in dict(request.headers):
         #print(header + " | " + request.headers.get(header))
@@ -28,9 +28,9 @@ def all_routes(text):
     
     # contains all variables for changing things with the game, called on startup
     if text.startswith('config'):
-        configfile3 = {"clientApiKey": "vrchatsex","hubWorldId": "Tuscany_01","homeWorldId": "wrld_2aec30df-6bbb-4272-89c1-3f2d4a1848cb","tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104","currentTOSVersion": "0", "whiteListedAssetUrls": ["http://localhost:2200/"]}
+        configfile3 = {"clientApiKey": "vrchatsex","hubWorldId": "Tuscany_01","homeWorldId": "wrld_2aec30df-6bbb-4272-89c1-3f2d4a1848cb","tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104","currentTOSVersion": "0", "whiteListedAssetUrls": ["http://localhost:5000/"]}
         
-        configfile2 = {"clientApiKey": "vrchatsex","hubWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7","homeWorldId": "wrld_2aec30df-6bbb-4272-89c1-3f2d4a1848cb","tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104","currentTOSVersion": "0", "whiteListedAssetUrls": ["http://localhost:2200/"]}
+        configfile2 = {"clientApiKey": "vrchatsex","hubWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7","homeWorldId": "wrld_2aec30df-6bbb-4272-89c1-3f2d4a1848cb","tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104","currentTOSVersion": "0", "whiteListedAssetUrls": ["http://localhost:5000/"]}
         configfile = {
             "messageOfTheDay": "",
             "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
@@ -47,8 +47,8 @@ def all_routes(text):
             "devSdkUrl": "https://files.vrchat.cloud/sdk/VRCSDK-2018.05.24.18.24_Public.unitypackage",
             "devSdkVersion": "2018.05.24.18.24",
             "whiteListedAssetUrls": [
-                "http://" + "localhost:2200" + "/",
-                "http://" + "localhost:2200" + "/",
+                "http://" + "localhost:5000" + "/",
+                "http://" + "localhost:5000" + "/",
                 "http://" + request.headers.get("Host") + "/",
                 "https://" + request.headers.get("Host") + "/",
                 "https://github.com/",
@@ -59,7 +59,7 @@ def all_routes(text):
             "clientApiKey": "oldvrchat",
             "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
             "sdkUnityVersion": "5.6.3p1",
-            "hubWorldId": "wrld_eb7a5096-9c93-41db-a9d7-7b349a5d4815",
+            "hubWorldId": "wld_97fda4a1-f820-4f09-a88c-2d2a95b668f7",
             "homeWorldId": "wrld_a0ad5ad3-2b2c-4a77-8220-d372d299b412",
             "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
             "disableEventStream": False,
@@ -81,7 +81,7 @@ def all_routes(text):
             "buildVersionTag": "build-05-06-18-major-meat",
             "apiKey": "oldvrchat",
             "plugin": [
-                "http://" + "localhost:2200" + "/",
+                "http://" + "localhost:5000" + "/",
                 "http://" + request.headers.get("Host") + "/",
                 "https://" + request.headers.get("Host") + "/",
                 "https://github.com/",
@@ -91,7 +91,7 @@ def all_routes(text):
             ],
             "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
             "TwitterUserScreenName": [
-                "http://" + "localhost:2200" + "/",
+                "http://" + "localhost:5000" + "/",
                 "http://" + request.headers.get("Host") + "/",
                 "https://" + request.headers.get("Host") + "/",
                 "https://github.com/",
@@ -101,7 +101,7 @@ def all_routes(text):
             ]
             }
 
-        send = json.dumps(configfile2)
+        send = json.dumps(configfile)
 
     # too lazy to disable eventstream, plus it helps sometimes. it can be disabled by remoteconfig
     if text.startswith('eventstream'):
@@ -140,7 +140,7 @@ def all_routes(text):
             "hasBirthday": "true",
             "acceptedTOSVersion": 999,
             "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-            "currentAvatarAssetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11.vrca",
+            "currentAvatarAssetUrl": "http://localhost:5000/cdn/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11.vrca",
             "developerType": "trusted",
             }
         filewrite = open("apis/players/" + str(request.headers.get("X-Macaddress")), "w")
@@ -180,7 +180,7 @@ def all_routes(text):
                             "imageUrl": "http://"+ request.headers.get("Host") + "/Images/" + filename + ".png",
                             "authorName": "vrchat",
                             "authorId": "vrchat",
-                            "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/" + filename + ".vrca",
+                            "assetUrl": "http://localhost:5000/cdn/" + filename + ".vrca",
                             "tags": [
                                 "avatar"
                             ],
@@ -209,7 +209,7 @@ def all_routes(text):
                 "imageUrl": "http://"+ request.headers.get("Host") + "/Images/" + avatar + ".png",
                 "authorName": "vrchat",
                 "authorId": "vrchat",
-                "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrca/" + avatar + ".vrca",
+                "assetUrl": "http://localhost:5000/cdn/" + avatar + ".vrca",
                 "tags": [
                     "avatar"
                 ],
@@ -272,7 +272,7 @@ def all_routes(text):
                                 "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png",
                                 "authorName": "vrchat",
                                 "authorId": "vrchat",
-                                "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrcw/" + filename + ".vrcw",
+                                "assetUrl": "http://localhost:5000/cdn/" + filename + ".vrcw",
                                 "tags": [
                                     "world"
                                 ],
@@ -282,7 +282,7 @@ def all_routes(text):
                                 "platform": "standalonewindows",
                                 "releaseStatus": "public",
                                 "capacity": 8,
-                                "pluginUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/dll/" + filename + ".dll",
+                                "pluginUrl": "http://localhost:5000/cdn/" + filename + ".dll",
                                 "occupants": 0,
                                 "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + filename + ".png"
                                 
@@ -311,7 +311,7 @@ def all_routes(text):
                         "imageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png",
                         "authorName": "vrchat",
                         "authorId": "vrchat",
-                        "assetUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/vrcw/" + filename + ".vrcw",
+                        "assetUrl": "http://localhost:5000/cdn/" + filename + ".vrcw",
                         "tags": [
                             "world"
                         ],
@@ -321,7 +321,7 @@ def all_routes(text):
                         "platform": "standalonewindows",
                         "releaseStatus": "public",
                         "capacity": 8,
-                        "pluginUrl": "https://raw.githubusercontent.com/tuckerisapizza/oldvrchat.online/main/dll/" + filename + ".dll",
+                        "pluginUrl": "http://localhost:5000/cdn/" + filename + ".dll",
                         "occupants": 0,
                         "thumbnailImageUrl": "http://"+ request.headers.get("Host") + "/cdn/Images/" + world + ".png"
                         }
@@ -376,9 +376,8 @@ def all_routes(text):
     
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
-    port = int(os.environ.get('PORT', 2200))
-    #customserver.run(host='0.0.0.0', port=port)
-    customserver.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
 
     
 
