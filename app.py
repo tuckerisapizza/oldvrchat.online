@@ -5,13 +5,13 @@ from dataclasses import dataclass
 import json
 from flask import Flask,redirect,send_file,request,json
 
-app = Flask(__name__)
+customserver = Flask(__name__)
 
-@app.route('/')
+@customserver.route('/')
 def main():
     return "VRChat Custom Server, by @tuckerisapizza. Supports version 0.12.0." # 
 
-@app.route('/<path:text>', methods=['GET', 'POST', 'PUT'])
+@customserver.route('/<path:text>', methods=['GET', 'POST', 'PUT'])
 def all_routes(text):
     #for header in dict(request.headers):
         #print(header + " | " + request.headers.get(header))
@@ -377,7 +377,8 @@ def all_routes(text):
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
     port = int(os.environ.get('PORT', 2200))
-    app.run(host='0.0.0.0', port=port)
+    #customserver.run(host='0.0.0.0', port=port)
+    customserver.run()
 
     
 
