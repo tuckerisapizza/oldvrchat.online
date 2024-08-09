@@ -1,0 +1,87 @@
+body
+{
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: 'Audiowide', cursive;
+	-webkit-perspective: preserve-3d;
+	color: white;
+}
+
+div
+{
+	-webkit-user-select: none;
+}
+
+#cuLogo 
+{
+	position: relative;
+	top: -webkit-calc(40% - 110px);
+	left: -webkit-calc(50% - 100px);
+	display: none;
+}
+
+#menu
+{
+	position: absolute;
+	top: -webkit-calc(100% - 360px);
+	left: -webkit-calc(100% - 330px);
+	width: 256px;
+}
+
+#menuBack
+{
+	-webkit-transition: all 0.4s linear;
+	-webkit-transform: perspective(400) rotateX(20deg) rotateY(50deg);
+	opacity: 0;
+}
+
+
+#menuBack.menuItemActive
+{
+	-webkit-transform: perspective(400) rotateY(-20deg);
+	opacity: 1;
+}
+
+button.btn-mystyle
+{
+	width: 100%;
+	height: 64px;
+	background-image: url('../img/btn_cherry.png');
+	background-size: contain;
+	-webkit-transition: -webkit-transform 0.2s linear;
+	-webkit-transform: perspective(400);
+	background-color: rgba(0, 0, 0, 0);
+	text-align: center;
+	
+	-webkit-animation: slide-right 0.4s linear 0s 1 normal both;
+	animation: slide-right 0.4s linear 0s 1 normal both;
+}
+
+.btn-mystyle:hover
+{
+	-webkit-transform: perspective(400) rotateY(-20deg) translateZ(50px) ;
+	background-color: rgba(0, 0, 0, 0);
+	
+	-webkit-animation: slide-left 0.4s linear 0s 1 normal both;
+	animation: slide-left 0.4s linear 0s 1 normal both;
+}
+
+@-webkit-keyframes slide-left {
+	from { text-indent: 0%; }
+	to { text-indent: -45%; }
+}
+
+@-webkit-keyframes slide-right {
+	from { text-indent: -45%; }
+	to { text-indent: 0%; }
+}
+
+.btn-mystyle::first-line
+{
+	font-family: 'Audiowide', cursive;
+	color: white;
+}

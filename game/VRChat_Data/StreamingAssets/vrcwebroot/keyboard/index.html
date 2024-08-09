@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Virtual Keyboard</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="keyboard.css" />
+  <script type="text/javascript" src="keyboard.js" charset="UTF-8"></script>
+  <script type="text/javascript" charset="UTF-8">
+    // force the focus on the inputfield
+    function ForceFocus() {
+      var el = document.getElementById('inputfield');
+      el.focus();
+      el.select();
+    }
+  </script>
+  <body onload="ForceFocus(); onclick=ForceFocus(); ">
+    <b id="title" class="keyboardTitle">default title</b>
+    <div>
+      <input id="inputfield" type="text" value="" class="keyboardInput"/>
+    </div>
+  </body>
+</html>

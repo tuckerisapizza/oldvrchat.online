@@ -1,4 +1,0 @@
-typing
-dataclasses
-flask
-requests

@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Coherent Browser Demo - menu</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="menukit/css/main.css" />
+	<link rel='stylesheet' href='css/fonts.css' type='text/css'>
+    <link rel="stylesheet" href="css/menu.css" type="text/css" media="screen" />
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="js/backbone/backbone-min.js"></script>
+
+	<script type="text/javascript" src="js/coherent.js"></script>
+    <script type="text/javascript" src="menukit/js/menu.js"></script>
+
+	<script type="text/javascript">
+	var fadeTime = 2000;
+
+	$(document).ready(function() {
+		$('#cuLogo').fadeIn(fadeTime, function(){
+			var menu = $('#menuBack');
+			$(menu).addClass('menuItemActive');
+		});
+
+        function none() {}
+        var buttons = [
+            {label: "New Game", style: "mystyle", callback: engine.call.bind(engine, "New Game")},
+            {label: "Options", style: "mystyle", callback: none },
+            {label: "DLC", style: "mystyle", callback: none },
+            {label: "Quit Game", style: "mystyle", callback: none}
+        ];
+
+        var menu = new GameMenu({buttons: buttons,  parent:"#menuBack"});
+	});
+    </script>
+</head>
+<body>
+	<div id='cuLogo'>
+		<img src='img/Coherent UI - icon.png'/>
+	</div>
+	<div id="menu">
+		<div id='menuBack'>
+		</div>
+	</div>
+</body>
+</html>

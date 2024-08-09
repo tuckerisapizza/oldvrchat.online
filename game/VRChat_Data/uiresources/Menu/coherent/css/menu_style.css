@@ -1,0 +1,29 @@
+.cui-menu {
+	background-color: rgba(0, 151, 255, 0.25);
+	height: auto;
+	text-align: center;
+	width: 220px;
+	border-radius: 15px;
+	padding: 15px;
+	-webkit-user-select: none;
+}
+
+.cui-menu button {
+	margin-top: 8%;
+	min-width: 220px;
+	display: block;
+}
+.cui-menu button:last-of-type{
+	margin-bottom:  8%;
+}
+
+.cui-default-menu {
+	position: absolute;
+	bottom: 25%;
+	left: -webkit-calc(50% - 110px);
+}
+
+.cui-hidden {
+	display: none;
+	visibility: hidden;
+}

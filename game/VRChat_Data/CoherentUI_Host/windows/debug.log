@@ -1,0 +1,351 @@
+[11960:5268:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11960:5268:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[11960:5268:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[17736:1876:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[17736:1876:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[17736:1876:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[6656:17856:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6656:17856:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[6656:17856:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[11688:9480:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11688:9480:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[11688:9480:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[1328:17140:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[1328:17140:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[1328:17140:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[11504:10208:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11504:10208:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[11504:10208:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[7680:7568:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7680:7568:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7680:7568:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[17796:13560:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[17796:13560:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[17796:13560:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[16836:10420:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[16836:10420:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[16836:10420:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[6072:9076:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6072:9076:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[6072:9076:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[6740:14516:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6740:14516:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[6740:14516:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[18636:19284:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[18636:19284:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[18636:19284:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[19148:19636:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[19148:19636:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[19148:19636:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[16936:15000:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[16936:15000:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[16936:15000:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[5100:17908:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[5100:17908:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[5100:17908:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[23748:19388:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[23748:19388:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[23748:19388:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[6364:13948:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6364:13948:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[6364:13948:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[21260:10172:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[21260:10172:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[21260:10172:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[25412:33824:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[25412:33824:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[25412:33824:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[26028:26412:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[26028:26412:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[26028:26412:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[42340:19952:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[42340:19952:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[42340:19952:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[46312:41264:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[46312:41264:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[46312:41264:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[33264:45792:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[33264:45792:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[33264:45792:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[30124:14604:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[30124:14604:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[30124:14604:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[28004:37268:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[28004:37268:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[28004:37268:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[28516:21580:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[28516:21580:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[28516:21580:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8843 from 
+[8396:1236:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8396:1236:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[8396:1236:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[9528:6480:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9528:6480:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9528:6480:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[9424:8116:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9424:8116:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9424:8116:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[2604:4328:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[2604:4328:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[2604:4328:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[9396:13180:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9396:13180:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9396:13180:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[4260:3992:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[4260:3992:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[4260:3992:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[7312:14176:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7312:14176:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7312:14176:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[8968:5308:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8968:5308:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[8968:5308:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[14712:8732:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[14712:8732:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[14712:8732:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[3664:14712:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[3664:14712:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[3664:14712:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[9236:15824:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9236:15824:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9236:15824:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[1304:11652:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[1304:11652:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[1304:11652:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[3460:2324:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[3460:2324:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[3460:2324:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[7368:17172:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7368:17172:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7368:17172:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[2316:5800:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[2316:5800:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[2316:5800:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[11344:13036:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11344:13036:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[11344:13036:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8859 from 
+[9816:16696:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9816:16696:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9816:16696:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[10672:9688:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[10672:9688:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[10672:9688:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[13820:8748:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[13820:8748:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[13820:8748:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[10036:17184:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[10036:17184:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[10036:17184:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[7352:17500:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7352:17500:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7352:17500:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[7632:4868:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7632:4868:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7632:4868:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[5308:12420:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[5308:12420:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[5308:12420:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[2968:14196:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[2968:14196:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[2968:14196:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[7492:13292:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7492:13292:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[7492:13292:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[4040:15312:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[4040:15312:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[4040:15312:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[8580:9440:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8580:9440:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[8580:9440:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[13672:2972:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[13672:2972:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[13672:2972:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[3584:13696:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[3584:13696:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[3584:13696:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[11004:14520:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11004:14520:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[11004:14520:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[8216:14508:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8216:14508:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[8216:14508:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[5464:3892:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[5464:3892:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[5464:3892:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[14748:8100:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[14748:8100:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[14748:8100:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[9112:2140:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[9112:2140:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[9112:2140:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[14392:13368:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[14392:13368:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[14392:13368:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[12900:14760:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[12900:14760:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[12900:14760:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[13680:14536:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[13680:14536:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 7200
+[13680:14536:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 23.21.13.8871 from 
+[61916:59760:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[61916:59760:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[61916:59760:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[54900:44960:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[54900:44960:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[54900:44960:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[55872:62284:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[55872:62284:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[55872:62284:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[14368:39596:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[14368:39596:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[14368:39596:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[65264:69016:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[65264:69016:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[65264:69016:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[48828:35144:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[48828:35144:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[48828:35144:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[65728:34664:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[65728:34664:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[65728:34664:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[61576:61700:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[61576:61700:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[61576:61700:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[56692:33864:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[56692:33864:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[56692:33864:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[15804:808:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[15804:808:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[15804:808:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[60804:5240:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[60804:5240:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[60804:5240:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[57276:50128:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[57276:50128:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[57276:50128:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[68532:21836:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[68532:21836:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[68532:21836:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[8404:10272:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8404:10272:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[8404:10272:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[1760:5732:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[1760:5732:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[1760:5732:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[17448:20128:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[17448:20128:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[17448:20128:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[18768:11364:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[18768:11364:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[18768:11364:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[18524:19960:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[18524:19960:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[18524:19960:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[21536:21540:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[21536:21540:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[21536:21540:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[20188:18584:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[20188:18584:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[20188:18584:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[17792:8232:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[17792:8232:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[17792:8232:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[12560:22856:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[12560:22856:INFO:UIContentClient.cpp(79)] Main GPU vendor 4098 device 29679
+[12560:22856:INFO:UIContentClient.cpp(99)] GPU driver Advanced Micro Devices, Inc. 31.0.14057.5006 from 
+[26648:2764:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[26648:2764:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[26648:2764:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[784:4144:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[784:4144:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[784:4144:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[2624:12036:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[2624:12036:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[2624:12036:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[18860:11632:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[18860:11632:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[18860:11632:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[6484:13620:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6484:13620:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[6484:13620:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[15136:17556:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[15136:17556:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 9479
+[15136:17556:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 31.0.15.3713 from 
+[19884:10480:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[19884:10480:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[19884:10480:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[21684:31468:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[21684:31468:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[21684:31468:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[3720:29992:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[3720:29992:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[3720:29992:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[1912:7120:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[1912:7120:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[1912:7120:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[10612:2784:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[10612:2784:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[10612:2784:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[21336:9164:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[21336:9164:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[21336:9164:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[19304:21404:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[19304:21404:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[19304:21404:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[6760:15732:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6760:15732:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[6760:15732:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[12116:20028:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[12116:20028:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[12116:20028:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[6048:22868:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[6048:22868:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[6048:22868:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[16292:15256:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[16292:15256:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[16292:15256:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[8144:16268:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[8144:16268:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[8144:16268:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[1720:22948:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[1720:22948:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[1720:22948:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[23936:17576:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[23936:17576:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[23936:17576:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[11648:26736:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11648:26736:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[11648:26736:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[10112:11540:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[10112:11540:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[10112:11540:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[13300:10776:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[13300:10776:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[13300:10776:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[13656:17816:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[13656:17816:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[13656:17816:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[14032:16376:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[14032:16376:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[14032:16376:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[23188:26952:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[23188:26952:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[23188:26952:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[19792:3776:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[19792:3776:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[19792:3776:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[11240:8600:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[11240:8600:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[11240:8600:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[22784:11876:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[22784:11876:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[22784:11876:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[17648:10480:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[17648:10480:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[17648:10480:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[7572:5160:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[7572:5160:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[7572:5160:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[24032:10992:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[24032:10992:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[24032:10992:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
