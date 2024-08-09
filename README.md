@@ -15,3 +15,4 @@ Although technically can support through April 2018.
 10. And you're in! Portals, Worlds, and Avatars should take around 30 seconds to load as theres a lot of them.
 
 Additional avatars and worlds (MUST be created with Unity 5.3.6f1 or lower!) can be loaded by adding the respected .vrca, .vrcw, and .dll files to their folders in /server!
+Avatars are able to be ported using our sdk! Make sure to send the avatar files to me on discord @tuckerisapizza so I can add them to the repo!
