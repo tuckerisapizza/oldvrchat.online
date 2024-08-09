@@ -349,3 +349,6 @@
 [24032:10992:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
 [24032:10992:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
 [24032:10992:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 
+[27408:26980:INFO:UIContentClient.cpp(74)] GPU info collected in gpu-process process: 
+[27408:26980:INFO:UIContentClient.cpp(79)] Main GPU vendor 4318 device 10243
+[27408:26980:INFO:UIContentClient.cpp(99)] GPU driver NVIDIA 32.0.15.5585 from 

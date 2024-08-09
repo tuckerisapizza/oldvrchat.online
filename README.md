@@ -9,9 +9,9 @@ Although technically can support through April 2018.
 4. Install pip if it doesn't install by default.
 5. Navigate to the server directory.
 6. Run pip install -r requirements.txt.
-7. Open app.py.
-8. Run vrchat.exe or DesktopLaunch.bat to launch VRChat.
+7. Open server/app.py.
+8. Run game/vrchat.exe or game/DesktopLaunch.bat to launch VRChat.
 9. Create your local VRChat account!
 10. And you're in! Portals, Worlds, and Avatars should take around 30 seconds to load as theres a lot of them.
 
-Additional avatars and worlds (MUST be created with Unity 5.3.6p1 or lower!) can be loaded by adding the respected .vrca, .vrcw, and .dll files to their folders in /server!
+Additional avatars and worlds (MUST be created with Unity 5.3.6f1 or lower!) can be loaded by adding the respected .vrca, .vrcw, and .dll files to their folders in /server!

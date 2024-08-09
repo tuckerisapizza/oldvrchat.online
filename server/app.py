@@ -188,7 +188,7 @@ def all_routes(text):
                 f = os.path.join("vrca", filename)
                 # checking if it is a file
                 if os.path.isfile(f):
-                    filename = filename.replace(".vrca", "")
+                    filename = filename.replace(".vrca", "").replace(".unity3d", "")
                     try:
                         avatarjson = open("apis/avatars/" + filename + ".json", "r", encoding="utf8")
                         jsondata = avatarjson.read()
@@ -381,7 +381,8 @@ def all_routes(text):
             print("VRCA called for!")
             isCDN = True
             file = "vrca\\" + filename
-
+        
+            
         if ".vrcw" in text:
             print("VRCW called for!")
             isCDN = True
@@ -405,6 +406,10 @@ def all_routes(text):
         try:
             return send_file(send)
         except:
+            if ".vrca" in text:
+                return send_file(send.replace(".vrca",".unity3d"))
+            if ".vrcw" in text:
+                return send_file(send.replace(".vrcw",".unity3d"))
             if ".dll" in text:
                 return send_file("dll\\fallbackdll.dll")
 
